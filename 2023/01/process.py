@@ -19,9 +19,3 @@ with open('input.txt') as f:
       sum += line_value(line)
 
     print(sum)
-
-
-
-
-
-
