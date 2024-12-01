@@ -21,7 +21,6 @@ class Locations:
 
 with open('input.txt') as f:
     lines = f.readlines()
-    sum = 0
 
     locations = Locations(lines)
     print(locations.similarity())
